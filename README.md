@@ -11,3 +11,8 @@ Return the smallest index i at which either a row or a column will be completely
 Problem 3:<br>
 You are given a map of a server center, represented as a m * n integer matrix grid, where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.
 Return the number of servers that communicate with any other server.
+
+Problem 4:<br>
+There is a directed graph of n nodes with each node labeled from 0 to n - 1. The graph is represented by a 0-indexed 2D integer array graph where graph[i] is an integer array of nodes adjacent to node i, meaning there is an edge from node i to each node in graph[i].
+A node is a terminal node if there are no outgoing edges. A node is a safe node if every possible path starting from that node leads to a terminal node (or another safe node).
+Return an array containing all the safe nodes of the graph. The answer should be sorted in ascending order.
