@@ -1,10 +1,10 @@
 def firstCompleteIndex(arr, mat):
         
-        found = 1
+        temp_list = []
 
         for e in range(len(arr)):
 
-            print(e)
+            temp_list.append(arr[e])
 
             if e < len(mat) - 1:
 
@@ -12,50 +12,18 @@ def firstCompleteIndex(arr, mat):
 
             else:
 
-                temp_list = []
+                for i in range(len(mat)):
 
-                for k in range(e + 1):
-
-                    temp_list.append(arr[k])
-
-                print(temp_list)
+                        if all(mat[i][j] in temp_list for j in range(len(mat))):
+                            
+                            return e
 
                 for i in range(len(mat)):
 
-                    found = 1
-
-                    for j in range(len(mat)):
-
-                        print(f"Checking element {mat[i][j]} in temp_list")
-
-                        if mat[i][j] not in temp_list:
-
-                            found = 0
-
-                            break
-
-                    if found:
-
-                        return e
-
-                for i in range(len(mat)):
-
-                    found = 1
-
-                    for j in range(len(mat)):
-
-                        print(f"Checking element {mat[j][i]} in temp_list")
-
-                        if mat[j][i] not in temp_list:
-
-                            found = 0
-
-                            break
-
-                    if found:
-                    
-                        return e
-                
+                        if all(mat[j][i] in temp_list for j in range(len(mat))):
+                            
+                            return e
+                         
         return -1    
                 
 if __name__ == "__main__":
