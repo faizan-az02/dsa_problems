@@ -46,7 +46,4 @@ if __name__ == "__main__":
 
     grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]
 
-    print(countServers(grid))
-
-
-
+    print(countServers(grid)) # Output:4
