@@ -30,4 +30,4 @@ if __name__ == "__main__":
 
     arr = [1, 3, 2, 4]
     mat = [[1, 2], [3, 4]]
-    print(firstCompleteIndex(arr, mat)) # Output: 1
+    print(firstCompleteIndex(arr, mat)) # Output: 1 
