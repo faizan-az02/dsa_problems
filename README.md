@@ -38,3 +38,7 @@ Problem 7:<br>
 In this problem, a tree is an undirected graph that is connected and has no cycles.<br>
 You are given a graph that started as a tree with n nodes labeled from 1 to n, with one additional edge added. The added edge has two different vertices chosen from 1 to n, and was not an edge that already existed. The graph is represented as an array edges of length n where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the graph.<br>
 Return an edge that can be removed so that the resulting graph is a tree of n nodes. If there are multiple answers, return the answer that occurs last in the input.
+
+Problem 8:<br>
+An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.<br>
+You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
