@@ -58,3 +58,9 @@ Your task is to remove all digits by doing this operation repeatedly:<br>
 Delete the first digit and the closest non-digit character to its left.<br>
 Return the resulting string after removing all digits.<br>
 Note that the operation cannot be performed on a digit that does not have any non-digit character to its left.
+
+Problem 12:<br>
+Given two strings s and part, perform the following operation on s until all occurrences of the substring part are removed:<br>
+Find the leftmost occurrence of the substring part and remove it from s.<br>
+Return s after removing all occurrences of part.<br>
+A substring is a contiguous sequence of characters in a string.
