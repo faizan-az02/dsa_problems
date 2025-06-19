@@ -71,4 +71,4 @@ Return the maximum value of nums[i] + nums[j] that you can obtain over all possi
 
 Problem 14:<br>
 You have n  tiles, where each tile has one letter tiles[i] printed on it.<br>
-Return the number of possible non-empty sequences of let
+Return the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.
