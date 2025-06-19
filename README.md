@@ -68,3 +68,7 @@ A substring is a contiguous sequence of characters in a string.
 Problem 13:<br>
 You are given a 0-indexed array nums consisting of positive integers. You can choose two indices i and j, such that i != j, and the sum of digits of the number nums[i] is equal to that of nums[j].<br>
 Return the maximum value of nums[i] + nums[j] that you can obtain over all possible indices i and j that satisfy the conditions. If no such pair of indices exists, return -1.
+
+Problem 14:<br>
+You have n  tiles, where each tile has one letter tiles[i] printed on it.<br>
+Return the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.
