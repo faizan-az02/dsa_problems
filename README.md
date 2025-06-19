@@ -51,3 +51,10 @@ Note: An array A rotated by x positions results in an array B of the same length
 Problem 10:<br>
 Given an array of positive integers nums, return the maximum possible sum of an strictly increasing subarray in nums.<br>
 A subarray is defined as a contiguous sequence of numbers in an array.
+
+Problem 11:<br>
+You are given a string s.<br>
+Your task is to remove all digits by doing this operation repeatedly:<br>
+Delete the first digit and the closest non-digit character to its left.<br>
+Return the resulting string after removing all digits.<br>
+Note that the operation cannot be performed on a digit that does not have any non-digit character to its left.
