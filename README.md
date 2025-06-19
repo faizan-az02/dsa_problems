@@ -47,3 +47,7 @@ Problem 9:<br>
 Given an array nums, return true if the array was originally sorted in non-decreasing order, then rotated some number of positions (including zero). Otherwise, return false.<br>
 There may be duplicates in the original array.<br>
 Note: An array A rotated by x positions results in an array B of the same length such that B[i] == A[(i+x) % A.length] for every valid index i.
+
+Problem 10:<br>
+Given an array of positive integers nums, return the maximum possible sum of an strictly increasing subarray in nums.<br>
+A subarray is defined as a contiguous sequence of numbers in an array.
