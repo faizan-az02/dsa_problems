@@ -64,3 +64,7 @@ Given two strings s and part, perform the following operation on s until all occ
 Find the leftmost occurrence of the substring part and remove it from s.<br>
 Return s after removing all occurrences of part.<br>
 A substring is a contiguous sequence of characters in a string.
+
+Problem 13:<br>
+You are given a 0-indexed array nums consisting of positive integers. You can choose two indices i and j, such that i != j, and the sum of digits of the number nums[i] is equal to that of nums[j].<br>
+Return the maximum value of nums[i] + nums[j] that you can obtain over all possible indices i and j that satisfy the conditions. If no such pair of indices exists, return -1.
