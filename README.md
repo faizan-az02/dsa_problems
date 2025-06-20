@@ -72,3 +72,7 @@ Return the maximum value of nums[i] + nums[j] that you can obtain over all possi
 Problem 14:<br>
 You have n  tiles, where each tile has one letter tiles[i] printed on it.<br>
 Return the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.
+
+Problem 15:<br>
+You are given a 0-indexed integer array nums. A pair of indices (i, j) is a bad pair if i < j and j - i != nums[j] - nums[i].<br>
+Return the total number of bad pairs in nums.
