@@ -81,3 +81,6 @@ Problem 16:<br>
 Given an array nums sorted in non-decreasing order, return the maximum between the number of positive integers and the number of negative integers.<br>
 In other words, if the number of positive integers in nums is pos and the number of negative integers is neg, then return the maximum of pos and neg.<br>
 Note that 0 is neither positive nor negative.
+
+Problem 17:<br>
+Given a 0-indexed integer array nums of length n and an integer k, return the number of pairs (i, j) where 0 <= i < j < n, such that nums[i] == nums[j] and (i * j) is divisible by k.
