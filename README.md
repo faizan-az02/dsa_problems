@@ -84,3 +84,9 @@ Note that 0 is neither positive nor negative.
 
 Problem 17:<br>
 Given a 0-indexed integer array nums of length n and an integer k, return the number of pairs (i, j) where 0 <= i < j < n, such that nums[i] == nums[j] and (i * j) is divisible by k.
+
+Problem 18:<br>
+Given a 0-indexed integer array nums of size n and two integers lower and upper, return the number of fair pairs.<br>
+A pair (i, j) is fair if:<br>
+0 <= i < j < n, and<br>
+lower <= nums[i] + nums[j] <= upper
