@@ -76,3 +76,8 @@ Return the number of possible non-empty sequences of letters you can make using 
 Problem 15:<br>
 You are given a 0-indexed integer array nums. A pair of indices (i, j) is a bad pair if i < j and j - i != nums[j] - nums[i].<br>
 Return the total number of bad pairs in nums.
+
+Problem 16:<br>
+Given an array nums sorted in non-decreasing order, return the maximum between the number of positive integers and the number of negative integers.<br>
+In other words, if the number of positive integers in nums is pos and the number of negative integers is neg, then return the maximum of pos and neg.
+Note that 0 is neither positive nor negative.
