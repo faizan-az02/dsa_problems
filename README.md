@@ -95,3 +95,6 @@ Problem 19:<br>
 You are given an integer n.<br>
 We need to group the numbers from 1 to n according to the sum of its digits. For example, the numbers 14 and 5 belong to the same group, whereas 13 and 3 belong to different groups.<br>
 Return the number of groups that have the largest size, i.e. the maximum number of elements.
+
+Problem 20:<br>
+Given an array of strings nums containing n unique binary strings each of length n, return a binary string of length n that does not appear in nums. If there are multiple answers, you may return any of them.
