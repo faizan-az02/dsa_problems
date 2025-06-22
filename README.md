@@ -101,3 +101,6 @@ Given an array of strings nums containing n unique binary strings each of length
 
 Problem 21:<br>
 Given an array nums of integers, return how many of them contain an even number of digits.
+
+Problem 22:<br>
+Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
