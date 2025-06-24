@@ -11,10 +11,10 @@ def countGoodNumbers(n):
         elif i in [1, 3, 5, 7, 9]:
 
             if d not in "2357":
-                
+
                 return False
     return True
 
 if __name__ == "__main__":
 
-    print(countGoodNumbers(3245))
+    print(countGoodNumbers(3245)
