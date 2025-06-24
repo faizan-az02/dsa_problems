@@ -17,4 +17,4 @@ def countGoodNumbers(n):
 
 if __name__ == "__main__":
 
-    print(countGoodNumbers(3245)
+    print(countGoodNumbers(3245))  # Output: False
