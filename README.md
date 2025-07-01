@@ -111,3 +111,8 @@ A digit string is good if the digits (0-indexed) at even indices are even and th
 Problem 24:<br>
 You are given a 0-indexed 2D integer matrix grid of size n * n with values in the range [1, n^2]. Each integer appears exactly once except a which appears twice and b which is missing. The task is to find the repeating and missing numbers a and b.
 Return a 0-indexed integer array ans of size 2 where ans[0] equals to a and ans[1] equals to b.
+
+Problem 25:<br>
+You are given a 0-indexed integer array nums.
+Return the maximum value over all triplets of indices (i, j, k) such that i < j < k. If all such triplets have a negative value, return 0.
+The value of a triplet of indices (i, j, k) is equal to (nums[i] - nums[j]) * nums[k].
