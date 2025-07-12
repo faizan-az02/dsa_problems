@@ -116,3 +116,7 @@ Problem 25:<br>
 You are given a 0-indexed integer array nums.
 Return the maximum value over all triplets of indices (i, j, k) such that i < j < k. If all such triplets have a negative value, return 0.
 The value of a triplet of indices (i, j, k) is equal to (nums[i] - nums[j]) * nums[k].
+
+Problem 26:<br>
+Given an array of integers arr, a lucky integer is an integer that has a frequency in the array equal to its value.
+Return the largest lucky integer in the array. If there is no lucky integer return -1.
